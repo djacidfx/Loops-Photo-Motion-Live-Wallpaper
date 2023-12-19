@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/window_bg_color</item>
+    </style>
+
+    <style name="AppTheme_Custom" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/color_text_off</item>
+    </style>
+
+    <style name="Splash_theme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="crop_image_theme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionMenuTextColor">@color/color_black</item>
+        <item name="android:colorControlHighlight">@color/toolbar_transparent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionMenuTextColor">@color/color_black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/color_white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/MyActionBarTitle</item>
+    </style>
+    <style name="MyActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColorSecondary">@color/color_black</item>
+        <item name="android:textSize">@dimen/tv_size_18</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:colorControlHighlight">@color/toolbar_transparent</item>
+        <item name="fontFamily">@font/fira_sans_regular</item>
+        <item name="iconTint">@color/color_black</item>
+    </style>
+    <style name="AppTheme_with_Action_bar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="12dp"
+    android:height="12dp"
+    android:viewportWidth="459"
+    android:viewportHeight="459">
+    <path
+        android:fillColor="@color/seekbar_progress_color"
+        android:pathData="M229.5,229.5m-229.5,0a229.5,229.5 0,1 1,459 0a229.5,229.5 0,1 1,-459 0" />
+    <path
+        android:fillColor="@color/seekbar_progress_color"
+        android:pathData="M229.5,229.5m-124.02,0a124.02,124.02 0,1 1,248.04 0a124.02,124.02 0,1 1,-248.04 0" />
+</vector>

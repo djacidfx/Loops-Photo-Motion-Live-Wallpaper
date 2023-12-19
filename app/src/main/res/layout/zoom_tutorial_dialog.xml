@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/trim_cardview_back_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="0dp"
+    android:background="@color/color_transaprent"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_transaprent"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/color_white"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_close_tutorial"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_close_black_24dp"
+                    app:tint="@color/myAccentColor" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/fira_sans_bold"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Pinch to Zoom "
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/tv_size_18" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zoom_tutorial" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

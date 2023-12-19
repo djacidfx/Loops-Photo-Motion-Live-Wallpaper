@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#90000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:background="@color/toolbar_bg_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/Tutorial_title"
+                        android:textColor="@color/color_black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/btn_close_tutorial"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical|center_horizontal|center"
+                        android:layout_marginRight="5dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="6dp"
+                        android:src="@drawable/ic_close_black_24dp"
+                        android:tint="@color/color_black" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:gravity="bottom|center_vertical|center_horizontal|center">
+
+                            <TextView
+                                android:id="@+id/tv_header"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="top|center_vertical|center_horizontal|center"
+                                android:gravity="bottom|center_vertical|center_horizontal|center"
+                                android:text="welcome"
+                                android:textColor="@color/color_white"
+                                android:textSize="18sp"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="5">
+
+                            <TextView
+                                android:id="@+id/tv_sub_header"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="5dp"
+                                android:gravity="center"
+                                android:text="welcome"
+                                android:textColor="@color/color_white"
+                                android:textSize="16sp"
+                                android:visibility="visible" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cv_for_imageview"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:background="@color/color_transaprent"
+                                    android:elevation="10dp"
+                                    app:cardCornerRadius="10dp">
+
+                                    <ImageView
+                                        android:id="@+id/iv_tutorial_image"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/color_transaprent"
+                                        android:scaleType="centerCrop" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_frame_on_tutorial_image"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="10dp"
+                                        android:scaleType="centerInside" />
+                                </androidx.cardview.widget.CardView>
+
+                                <ImageView
+                                    android:id="@+id/iv_logo_image"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/color_transaprent"
+                                    android:scaleType="centerCrop"
+                                    android:visibility="gone" />
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/iv_effect_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="4"
+                        android:gravity="top|center_vertical|center_horizontal|center"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="top|center_vertical|center_horizontal|center"
+                            android:layout_weight="2.5"
+                            android:gravity="top|center_vertical|center_horizontal|center">
+
+                            <TextView
+                                android:id="@+id/tv_footer_point_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="left|center_vertical|center_horizontal|center"
+                                android:gravity="left|center_vertical|center_horizontal|center"
+                                android:text="DRAG LEFT TO START THE TUTORIAL"
+                                android:textColor="@color/color_white"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="left|center_vertical|center_horizontal|center"
+                            android:layout_weight="2.5"
+                            android:gravity="left|center_vertical|center_horizontal|center">
+
+                            <TextView
+                                android:id="@+id/tv_footer_point_two"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="left|center_vertical|center_horizontal|center"
+                                android:gravity="left|center_vertical|center_horizontal|center"
+                                android:text="DRAG LEFT TO START THE TUTORIAL"
+                                android:textColor="@color/color_white"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="top|center_vertical|center_horizontal|center"
+                            android:layout_weight="2.5"
+                            android:gravity="top|center_vertical|center_horizontal|center">
+
+                            <TextView
+                                android:id="@+id/tv_footer_point_three"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="left|center_vertical|center_horizontal|center"
+                                android:gravity="left|center_vertical|center_horizontal|center"
+                                android:text="DRAG LEFT TO START THE TUTORIAL"
+                                android:textColor="@color/color_white"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

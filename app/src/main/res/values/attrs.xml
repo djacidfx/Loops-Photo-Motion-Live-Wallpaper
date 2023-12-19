@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="preferenceTheme" format="reference" />
+    <attr name="catalogToolbarStyle" format="reference" />
+    <attr name="catalogToolbarWithCloseButtonStyle" format="reference" />
+    <attr name="textInputSignInStyle" format="reference" />
+    <declare-styleable name="DynamicSeekBarView">
+        <attr name="dsbv_infoBackgroundColor" format="reference"></attr>
+        <attr name="dsbv_infoInitText" format="reference"></attr>
+        <attr name="dsbv_infoRadius" format="integer"></attr>
+        <attr name="dsbv_infoSize" format="dimension"></attr>
+        <attr name="dsbv_infoTextColor" format="reference"></attr>
+        <attr name="dsbv_infoTextSize" format="dimension"></attr>
+        <attr name="dsbv_isHideInfo" format="boolean"></attr>
+        <attr name="dsbv_max" format="integer"></attr>
+        <attr name="dsbv_progress" format="integer"></attr>
+        <attr name="dsbv_progressBackgroundColor" format="reference"></attr>
+        <attr name="dsbv_progressColor" format="reference"></attr>
+        <attr name="dsbv_progressDrawable" format="reference"></attr>
+        <attr name="dsbv_thumbDrawable" format="reference"></attr>
+        <attr name="dsbv_thumbSize" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="CustomSeekBar">
+        <attr name="dms_background" format="reference"></attr>
+        <attr name="dms_isHideProgressInit" format="boolean"></attr>
+        <attr name="dms_outsideControl" format="boolean"></attr>
+        <attr name="dms_progressDrawable" format="reference"></attr>
+        <attr name="dms_rotation">
+            <enum name="CW90" value="90" />
+            <enum name="CW270" value="270" />
+        </attr>
+        <attr name="dms_thumbDrawable" format="reference"></attr>
+        <attr name="dms_thumbSize" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="TooltipIndicator">
+        <attr name="ti_lineHeight" format="dimension"></attr>
+        <attr name="ti_lineMargin" format="dimension"></attr>
+        <attr name="ti_lineWidth" format="dimension"></attr>
+        <attr name="ti_lineWidthSelected" format="dimension"></attr>
+        <attr name="ti_selectedLineDrawable" format="reference"></attr>
+        <attr name="ti_tooltipHeight" format="dimension"></attr>
+        <attr name="ti_tooltipWidth" format="dimension"></attr>
+        <attr name="ti_unselectedLineDrawable" format="reference"></attr>
+    </declare-styleable>
+</resources>

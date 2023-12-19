@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+
+
+    <color name="colorAccent">@color/myAccentColor</color>
+    <color name="colorPrimaryDark">#f3f3f3</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="color_light_black">#4A4A4A</color>
+
+
+    <color name="color_gradient_one">#88a7fc</color>
+    <color name="color_gradient_two">#60efff</color>
+    <color name="txt_color">@color/color_black</color>
+    <color name="myAccentColor">@color/color_black</color>
+    <color name="seekbar_progress_color">@color/colorAccent</color>
+    <color name="seekbar_bg_color">#cadbf1</color>
+
+
+    <!--    <color name="color_gradient_one">#95c3ff</color>-->
+    <!--    <color name="color_gradient_two">#006eff</color>-->
+    <color name="color_white">@color/color_gradient_one</color>
+    <color name="window_bg_color">#caf0f8</color>
+    <color name="toolbar_bg_color">@color/colorPrimary</color>
+    <color name="editor_bg_color">#D4F7ED</color>
+    <color name="white">#C6C6C6</color>
+
+
+
+
+    <color name="bg_eraserview">#c4ecdada</color>
+    <color name="browser_actions_bg_grey">#f5f5f5</color>
+    <color name="browser_actions_divider_color">#1e000000</color>
+    <color name="browser_actions_text_color">#de000000</color>
+    <color name="browser_actions_title_color">#646464</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+
+    <color name="color_accent_lighter">#9668ca</color>
+    <color name="color_black">#000000</color>
+    <color name="color_blue">#3389ec</color>
+
+    <color name="color_for_click">#3a116d</color>
+
+
+
+    <color name="color_opacity">#29000000</color>
+    <color name="color_pink">#378bfa</color>
+    <color name="color_tag_line">#00e5e9</color>
+    <color name="color_text_more">#378bfa</color>
+    <color name="color_text_off">#afafaf</color>
+    <color name="color_text_purple">#491d7a</color>
+    <color name="color_text_yellow">#ffc300</color>
+    <color name="color_transaprent">#00000000</color>
+
+
+
+    <color name="default_color">#3f51b5</color>
+    <color name="design_snackbar_background_color">#323232</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80323232</color>
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="error_color_material_dark">#ff7043</color>
+    <color name="error_color_material_light">#ff5722</color>
+    <color name="exo_edit_mode_background_color">#fff4f3f0</color>
+    <color name="exo_error_message_background_color">#aa000000</color>
+    <color name="foreground_material_dark">@android:color/white</color>
+    <color name="foreground_material_light">@android:color/black</color>
+    <color name="gray_bold">#919191</color>
+    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="ic_launcher_background">#130a20</color>
+    <color name="light_green">#9ff40b</color>
+    <color name="popup_bg">#b2000000</color>
+    <color name="preview_bg">#eeeeee</color>
+    <color name="preview_text_color">#9f9f9f</color>
+    <color name="red">#0000</color>
+    <color name="ripple_material_dark">#33ffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="seekbar_minus_color">#c7c7c7</color>
+
+    <color name="semi_transparent">#69000000</color>
+    <color name="toolbar_transparent">#2a000000</color>
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+    <color name="tutorialskipcolor">#b9b9b9</color>
+    <color name="txt_color_filled">#ffffff</color>
+    <color name="txt_color_unfilled">#7a7a7a</color>
+    <color name="txtcolor_empty">#cecece</color>
+</resources>
