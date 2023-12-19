@@ -17,14 +17,23 @@ How to use Loops Motion Live Wallpaper
 Features
 
 ➺ You can select an image from the gallery.
+
 ➺ Use the motion tool at each point you want to give a live motion effect.
+
 ➺ You can give direction for effect.
+
 ➺ Stabilization tool can define that point not be moved.
+
 ➺ With the mask tool, you can define the region of the image that will not have movement.
+
 ➺ Create your Animated Loop Live Wallpaper.
+
 ➺ You can also set wallpaper from the given Loops Photo Motion Live Wallpaper collection.
+
 ➺ Save your creation and share with friends, family, and all social sites.
+
 ➺ Simple and easy app.
+
 ➺ No internet required.
 
 Loops Photo Motion Live Wallpaper app is made to live your photo. You can animate anything in an image by drawing a path on the image. Change the speed of picture animation.
